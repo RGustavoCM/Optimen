@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Peticion De Vacaciones</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/stylelogin.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+	integrety="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1m7uH2+nqUivzIebhndOJK28anvf"
+	crossorigin="anonymous" 
+	/>
+</head>
+<body  data-spy="scroll" data-target="#navbarResponsive">
+
+<div id="login">
+	
+
+<!--- Inicia La Barra De NAvegacion -->
+
+<nav class="navbar navbar-expand-md navbar-dark bg-light fixed-top">
+	<a class="navbar-brand" href="#"><img src="img/opti.png"> </a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" > 
+		<span class="navbar-toggler-icon" > </span> 
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto" >
+			<li class="nav-item">
+				<a class="nav-link" href="#login">Login</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contacto">Contacto</a>
+			</li>						
+		</ul>
+	</div>
+</nav>
+<!--- Termina La Barra De Navegacion -->
+
+<!--- Inicia La Parte De Inico -->	
+<div class="login">
+	<div class="home-wrap">
+		<div class="home-inner">	
+		</div>
+	</div>
+</div>
+<h2>Para Entrar Al Sitio Debes Tener Una Cuenta</h2>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Crear Cuenta</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>O Usa Tu Correo Electronico</span>
+			<input type="text" placeholder="Nombre" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Contra" />
+			<button class="ghost">Registrarme</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="inicio.html">
+			<h1>Inicia Sesion</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+			</div>
+			<span>O Usa Tu Cuenta</span>
+			<input type="Number" placeholder="Numero De Empleado" />
+			<input type="password" placeholder="Contrasenia" />
+			<a href="#">Has Olvidado Tu Contrasenia?</a>
+			<button class="ghost">Ingresar</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Listo Ahora Inicia Sesion!!</h1>
+				<p>Para Seguir Conectados Ingresa Tus Datos</p>
+				<button class="ghost" id="signIn">Inicar Sesion!</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Bienvenido Apreciado Tripulante!!</h1>
+				<p>Que Ofrece Este Servicio?</p>
+				<button class="ghost" id="signUp">Como Funciona?</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/jslogin.js"></script>
+<!--- Termina La Parte De Inico -->	
+</div>
+
+
+
+</body>
+
+</html>
